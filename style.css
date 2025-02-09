@@ -1,0 +1,295 @@
+body {
+  margin: 0%;
+}
+.see {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+/* Шапка */
+
+header {
+  background-color: rgba(119, 0, 255, 1);
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.header_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 50px;
+  width: 100%;
+}
+
+.header_div_1 {
+  text-align: left;
+  align-items: center;
+}
+
+.header_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_div_1 h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.header_div_1 h6 {
+  margin: 0;
+  font-size: 0.9em;
+  color: b;
+}
+
+.header_div_2 {
+  display: flex;
+  align-items: center;
+}
+
+.header_div_2 p {
+  margin: 0;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+.header_div_2 img {
+  height: 30px;
+  width: auto;
+}
+
+.header_div_2 p:hover {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+.btn {
+  border-radius: 10px;
+  background-color: white;
+}
+.btn_1 {
+  border-radius: 10px;
+  background-color: black;
+}
+/* .button_img {
+  background-image: url(img/moon.png);
+  width: 50px;
+  height: auto;
+}
+.button_img_1 {
+  background-image: url(img/sun.png);
+  width: 50px;
+  height: auto;
+} */
+/* header {
+    background-color: rgba(119, 0, 255, 1);
+    height: 100px; min-height: 100px;
+    max-height: 200px;
+    display: flex;
+}
+header h1, h6, p {
+    color: white;
+} */
+/* .header_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.header_right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header_div_p_up{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.header_div_p_down{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+/* Главный экран */
+main {
+  background-image: url(img/background_main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+main div {
+  height: 700px;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 7%;
+}
+main div h2,
+h3 {
+  font-size: 50px;
+}
+main div h1 {
+  font-size: 50px;
+}
+
+/* Сайт основной */
+
+/* .article_div{
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.article_div img{
+    justify-content: center;
+    display: flex;
+
+} */
+
+/* .article_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article{
+    height: 350px;
+    background-image: url(img/back1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article img{
+    height: 300px;
+    width: auto;
+}
+article div p{
+    color: black;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    width: 400px;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+article div a{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: auto;
+}
+.article_a{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+} */
+article {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+article div {
+  display: flex;
+  justify-content: space-evenly;
+}
+article div p {
+  height: 300px;
+  width: 400px;
+  font-size: 24px;
+  background-color: rgba(217, 217, 217, 1);
+  color: black;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+article div img {
+  height: auto;
+  width: 400px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 20px;
+}
+.article_img {
+  height: 400px;
+}
+.article_1 {
+  background-image: url(img/background_1.png);
+  height: 500px;
+}
+.article_2 {
+  background-image: url(img/background_2.png);
+  height: 600px;
+}
+.article_3 {
+  background-image: url(img/background_3.png);
+  height: 600px;
+}
+.article_4 {
+  background-image: url(img/background_4.png);
+  height: 600px;
+}
+
+.article_1_1 {
+  background-color: black;
+  height: 500px;
+}
+.article_2_1 {
+  background-color: rgb(79, 77, 77);
+  height: 600px;
+}
+.article_3_1 {
+  background-color: black;
+  height: 600px;
+}
+.article_4_1 {
+  background-color: rgb(79, 77, 77);
+  height: 600px;
+}
+
+/* .t{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Подвал */
+footer h2 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0%;
+}
+footer p {
+  color: black;
+  margin-top: 0%;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 24px;
+}
+.div_end {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+footer {
+  background-color: rgba(217, 217, 217, 1);
+}
+.footer_p_size {
+  font-size: 30px;
+}
+.img_buy:hover {
+  animation: img_buy 2s linear alternate infinite;
+}
+@keyframes img_buy {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
